@@ -1,0 +1,81 @@
+/* 
+There are two main color models: the additive RGB (red, green, blue) model used in electronic devices, and the subtractive CMYK (cyan, magenta, yellow, black) model used in print.
+
+In this project, you'll work with the RGB model. This means that colors begin as black, and change as different levels of red, green, and blue are introduced. An easy way to see this is with the CSS rgb function.
+
+This is because the green color keyword is actually a darker shade, and is about halfway between black and the maximum value for green. 
+*/
+
+/* Two colors that are opposite from each other on the color wheel are called complementary colors. If two complementary colors are combined, they produce gray. But when they are placed side-by-side, these colors produce strong visual contrast and appear brighter.
+
+Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page. */
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+/* Your border should be visible now. If no color is set, black is used by default.
+But to make your code more readable, it's better to set the border color explicitly */
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+
+/* It looks like your sleeve disappeared, but don't worry -- it's still there. What happened is that your new cap div is taking up the entire width of the marker, and is pushing the sleeve down to the next line.
+
+This is because the default display property for div elements is block. So when two block elements are next to each other, they stack like actual blocks. For example, your marker elements are all stacked on top of each other.
+
+To position two div elements on the same line, set their display properties to inline-block.
+
+Create a new rule to target both the cap and sleeve classes, and set display to inline-block. */
+.cap,
+.sleeve {
+  display: inline-block;
+}
+
+/* One thing to remember is that the linear-gradient function actually creates an image element, and is usually paired with the background property which can accept an image as a value. */
+/* box-shadow: offsetX offsetY blurRadius color; */
+/* But what if you wanted to expand the shadow out further? You can do that with the optional spreadRadius value
+box-shadow: offsetX offsetY blurRadius spreadRadius color; */
+.red {
+  background: linear-gradient(
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
+  );
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+  background: linear-gradient(#55680d, #71f53e, #116c31);
+  box-shadow: 0 0 20px 0 #3b7e20cc;
+}
+
+.blue {
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
+  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
