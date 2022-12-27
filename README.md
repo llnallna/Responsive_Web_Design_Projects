@@ -2,7 +2,7 @@ Responsive_Web_Design_Projects
 ======
 
 
-Responsive Web Design Projects for freeCodeCamp
+Projects for Responsive Web Design Course of freeCodeCamp
 <br>
 <br>
 ### Part 1
