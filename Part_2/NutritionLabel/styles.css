@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    clear: right;
+  }
+  
+  .bold {
+    font-weight: 800;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .lg {
+    height: 10px;
+  }
+  
+  .lg, .md {
+    background-color: black;
+    border: 0;
+  }
+  
+  .md {
+    height: 5px;
+  }
+  
+  .sm-text {
+    font-size: 0.85rem;
+  }
+  
+  .calories-info h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+  }
+  
+  .calories-info span {
+    font-size: 1.2em;
+    margin-top: -7px;
+  }
+  
+  .indent {
+    margin-left: 1em;
+  }
+  
+  .dbl-indent {
+    margin-left: 2em;
+  }
+  
+  .daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+  }
+  
+  .note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
+  }
+
+
+
+/* Step 31
+The rem unit stands for root em, and is relative to the font size of the html element.
+
+Create an .sm-text selector and set the font-size to 0.85rem, which would calculate to be roughly 13.6px (remember that you set your html to have a font-size of 16px). */
+
+/* Step 41 şuna dikkat edelim anılcım ;)
+Give the .divider selector a clear property set to right. This will clear the float property, pushing the divider and any following content down below the float text. */
+
+
+/* Step 48
+The :not pseudo-selector can be used to select all elements that do not match the given CSS rule.
+
+div:not(#example) {
+  color: red;
+}
+The above selects all div elements without an id of example.
+
+Modify your .daily-value p selector to exclude the .no-divider elements. */
