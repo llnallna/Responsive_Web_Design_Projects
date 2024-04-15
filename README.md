@@ -2,8 +2,10 @@ Responsive_Web_Design_Projects
 ======
 
 
+
 Projects for Responsive Web Design Course of freeCodeCamp
 <br>
+*** Please see projects' own readme files for project images.
 <br>
 ### Part 1
 + Learn HTML by Building a Cat Photo App
