@@ -11,7 +11,13 @@
 
 
 ![City Skyline](CitySkyline2.png)
-[![City Skyline Video](CitySkyline.mp4)](CitySkyline.mp4)
+
+
+
+<video width="640" height="480" controls>
+<source src="CitySkyline.mp4" type="video/mp4">
+</video>
+
 ![City Skyline - Going To Night](GoingToNight.png)
 ![City Skyline - step 112](step112.png)
 ![City Skyline - step 113](step113.png)
