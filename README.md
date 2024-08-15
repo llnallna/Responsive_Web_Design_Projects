@@ -99,6 +99,7 @@ and here is my [freeCodeCamp pofile](https://www.freecodecamp.org/anil_cetin) if
 ![Magazine Page](./Part_4/MagazinePage/MagazineArticle2.png)
 
 ----
+
 ## Certification Project 4: Product Landing Page
 ![Product Landing Page](./Part_4/ProductLandingPage/LandingPage1.png)
 ![Product Landing Page](./Part_4/ProductLandingPage/LandingPage2.png)
