@@ -1,14 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles.css">
+  <title>ANIL CETIN | Front-End Developer</title>
 
-    <title>ANIL CETIN | Front-End Developer</title>
+  <meta name="site_name" content="ANIL CETIN | Front-End Developer" />
+  <meta name="description"
+    content="ANIL CETIN is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. aramada ne kdrı görünüyor bir bak" />
+
+  <!-- ----------- Custom CSS ----------------- -->
+  <link rel="stylesheet" href="styles.css" />
+
 </head>
+
 <body>
-    
+  <header>
+    <nav id="navbar" class="nav sticky">
+      <ul class="nav-list">
+        <li><a href="#welcome-section">HOME</a></li>
+        <li><a href="#welcome-section">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome">
+      <h1>ANIL ÇETİN</h1>
+      <h2>front-end web developer</h2>
+    </section>
+  </header>
+
+  <main>
+    <!-- ----------- PROJECTS SECTION ----------------- -->
+    <section id="projects" class="projects">
+      <h2>MY PROJECTS</h2>
+
+      <div class="project-tile">
+        <h3>DIAMOND KEY REAL ESTATE</h3>
+        <img src="https://diamondkeyistanbul.com/Content/upload/diamond-key.png" alt="Diamond Key LOGO" width="200" height="auto"/>
+        <p>
+          I coded the site with a leader and a backend developer.
+          <br>
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          voluptatibus officiis pariatur, culpa aliquam ullam. Sunt, unde!
+          Harum nesciunt sit nostrum, possimus, rem ratione non officia nihil
+          voluptas distinctio sint?
+        </p>
+
+
+        <button>
+          <a href="https://diamondkeyistanbul.com/">VIEW HERE</a>
+        </button>
+      </div>
+    </section>
+
+
+    <!-- ----------- CONTACT ----------------- -->
+    <section class="contact" id="contact">
+      <h2>CONTACT</h2>
+
+      <!-- ----------- SOCIAL-MEDIA ----------------- -->
+
+      <div>
+        <p style="margin-bottom: 10px;"><b>You can find me on this online space too!</b></p>
+
+        <a href="https://www.linkedin.com/in/anlcetin/" id="profile-link" target="_blank"
+          style="display:block; text-align:center; margin-bottom:50px; margin-top:0;">Linkedin</a>
+      </div>
+
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="John Doe"/>
+
+        <input type="email" name="email" placeholder="johnDoe@hotmail.com"/>
+
+        <label for="subject"> Subject</label>
+        <textarea name="" id="subject" cols="20" rows="7"></textarea>
+
+        <input type="submit" value="Submit" style="margin-top:10px; margin-left:auto;">
+      </form>
+    </section>
+    <!-- ----------- FOOTER ----------------- -->
+    <footer>
+      <hr />
+      <p style="text-align: center;">
+        @2024
+        &nbsp
+        |
+        &nbsp
+        Anıl Çetin</p>
+    </footer>
 </body>
+
 </html>
